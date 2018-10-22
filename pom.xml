@@ -65,16 +65,9 @@
     </pluginManagement>
   </build>
 <distributionManagement>
-   <repository>
-       <id>deployment</id>
-       <name>naveen</name>
-       <url>http://192.168.22.166:8081/nexus/content/repositories/naveen/</url>
-   </repository>
-   <snapshotRepository>
-       <id>deployment</id>
-       <name>snapshot</name>
-       <url>http://192.168.22.166:8081/nexus/content/repositories/naveen-snapshot/</url>
-   </snapshotRepository>
+  <repository>
+    <id>nexus</id>
+    <url>http://192.168.0.121:8081/nexus/content/repositories/nexus</url>
+  </repository>
 </distributionManagement>
-
 </project>
