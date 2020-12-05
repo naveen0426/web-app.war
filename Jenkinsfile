@@ -15,7 +15,7 @@ pipeline {
        }
       stage (mvnbuild) {
          steps {
-            cd /opt/maven/bin/mvn
+            sh 'cd /opt/maven/bin/mvn'
             sh '/opt/maven/bin/mvn clean install'
          }
       }
