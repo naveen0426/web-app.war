@@ -8,7 +8,7 @@ pipeline {
        }
    }
    stages {
-       stage (Git Clone) {
+       stage (Gitclone) {
             git url: 'https://github.com/naveen0426/web-app.war.git', branch: 'master'
        }
    }   
