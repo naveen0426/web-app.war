@@ -1,0 +1,19 @@
+{
+  "checkout": {
+               "repo_url": "https://github.com/naveen0426/"
+               "git_tool": "Default"
+               "credentials_id": "naveen0426"
+   }
+   "infy_dd"
+   "checkout": {
+               "repo_url": "https://github.com/naveen0426/web-app.war.git"
+   }
+   "infy_ms"
+   "checkout": {
+               "repo_url": "https://github.com/naveen0426/hello-world.git"
+   }
+}
+
+   
+
+               
