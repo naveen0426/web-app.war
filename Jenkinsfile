@@ -13,6 +13,10 @@ pipeline {
             git url: 'https://github.com/naveen0426/web-app.war.git', branch: 'master'
           }   
        }
+      stage (mvn build) {
+         steps {
+             def mavenHome = tool name:"maven",type: "maven"
+            sh "${mavenHome}/bin/mvn clean package"
    }   
             
 }
