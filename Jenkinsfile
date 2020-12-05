@@ -15,8 +15,7 @@ pipeline {
        }
       stage (mvnbuild) {
          steps {
-             def mavenHome= tool name: "maven_default",type: "maven"
-            sh "${mavenHome}/bin/mvn clean package"
+            sh 'mvn -Dmaven.test.failure.ignore=true install'
          }
       }
    }   
