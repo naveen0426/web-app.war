@@ -10,7 +10,6 @@ pipeline {
    stages {
        stage (Gitclone) {
           steps {
-            git tool: Default
             git url: 'https://github.com/naveen0426/web-app.war.git', branch: 'master'
           }   
        }
