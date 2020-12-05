@@ -11,4 +11,5 @@ pipeline {
        stage (Git Clone) {
             git url: 'https://github.com/naveen0426/web-app.war.git', branch: 'master'
             
+}
        
